@@ -1,0 +1,106 @@
+body {
+  background-color: #f8f9fa;
+  font-family: 'Roboto Flex', sans-serif;
+}
+
+body.dark-mode {
+  background-color: #343a40;
+  color: #ffffff;
+}
+
+nav{
+  border-bottom: 1.5px solid black;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.custom-control-label{
+  color: black;
+  align-items: center;
+  margin-top: 5px;
+  font-size: 0.875rem;
+}
+
+.login-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+body.dark-mode .login-container {
+  background-color: #495057;
+}
+
+.dashboard-container {
+  margin: 20px;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+body.dark-mode .card {
+  background-color: #495057;
+  color: #ffffff;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+body.dark-mode .list-group-item {
+  background-color: #495057;
+  color: #ffffff;
+}
+
+.list-group-item i {
+  color: #007bff;
+}
+
+body.dark-mode .list-group-item i {
+  color: #17a2b8;
+}
+
+/* Modal styles */
+.modal-content {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+body.dark-mode .modal-content {
+  background-color: #495057;
+  color: #ffffff;
+}
+
+body.dark-mode .modal-header,
+body.dark-mode .modal-body,
+body.dark-mode .modal-footer {
+  border-color: #6c757d;
+}
+
+/* Button hover effects */
+.btn:hover {
+  opacity: 0.8;
+}
+
+/* Input group styles */
+.input-group-text {
+  background-color: #e9ecef;
+  border: 1px solid #ced4da;
+}
+
+body.dark-mode .input-group-text {
+  background-color: #6c757d;
+  border: 1px solid #495057;
+}
